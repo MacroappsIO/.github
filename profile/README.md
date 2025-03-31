@@ -48,7 +48,7 @@ npm install
 npm run test
 ```
 
-For full usage, see the [`https://github.com/MacroappsIO/Ioc/blob/main/README.md`](./ioc/README.md).
+For full usage, see https://github.com/MacroappsIO/Ioc/blob/main/README.md.
 
 ---
 
