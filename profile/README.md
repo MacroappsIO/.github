@@ -1,8 +1,8 @@
-# MicroApps Architecture
+# MacroApps Architecture
 
-**MicroApps** is an open-source, modular architecture built in TypeScript for developing enterprise-grade Node.js applications with clean, decoupled services.
+**MacroApps** is an open-source, modular architecture built in TypeScript for developing enterprise-grade Node.js applications with clean, decoupled services.
 
-Inspired by architectures like [Athenna](https://athenna.io), MicroApps provides a solid foundation for scalable backend applications, offering clear boundaries across modules such as `IoC`, `Core`, `Common`, and `CLI`.
+Inspired by architectures like [Athenna](https://athenna.io), MacroApps provides a solid foundation for scalable backend applications, offering clear boundaries across modules such as `IoC`, `Core`, `Common`, and `CLI`.
 
 > ✅ Built for developers, open to the community, and licensed under MIT.
 
@@ -28,10 +28,10 @@ All packages are ESM-first, written in TypeScript, and fully testable.
 
 | Package     | Status    | Description                                  |
 |-------------|-----------|----------------------------------------------|
-| `@microapps/ioc`     | ✅ Completed | Lightweight IoC container with decorators and scoped resolution |
-| `@microapps/core`    | 🔜 Planned   | App lifecycle, bootstrapping, and service providers              |
-| `@microapps/common`  | 🔜 Planned   | Shared helpers, domain errors, constants                         |
-| `@microapps/cli`     | 🔜 Planned   | Developer tooling and scaffolding CLI                            |
+| `@macroapps/ioc`     | ✅ Completed | Lightweight IoC container with decorators and scoped resolution |
+| `@macroapps/core`    | 🔜 Planned   | App lifecycle, bootstrapping, and service providers              |
+| `@macroapps/common`  | 🔜 Planned   | Shared helpers, domain errors, constants                         |
+| `@macroapps/cli`     | 🔜 Planned   | Developer tooling and scaffolding CLI                            |
 
 > ⚠️ Currently, only the `ioc` module is implemented. Other modules will be released gradually.
 
@@ -66,7 +66,7 @@ For full usage, see https://github.com/MacroappsIO/Ioc/blob/main/README.md.
 
 ## 🧩 Philosophy
 
-> **Minimal, testable, extendable** — the core principles behind MicroApps.
+> **Minimal, testable, extendable** — the core principles behind MacroApps.
 
 This project is being built with a focus on maintainability and flexibility across large applications. It's structured in a way that lets developers adopt only the pieces they need, without being forced into a monolith.
 
@@ -74,7 +74,7 @@ This project is being built with a focus on maintainability and flexibility acro
 
 ## 👥 Community & Contributing
 
-**MicroApps is open-source and built for the community.**
+**MacroApps is open-source and built for the community.**
 
 If you're a developer looking for a clean DI container, a contributor interested in modular architectures, or a team building scalable Node.js apps — you're welcome here!
 
@@ -87,10 +87,10 @@ Contributions are encouraged, and collaboration is open.
 
 ## 📌 Roadmap
 
-- [x] `@microapps/ioc`: IoC container
-- [ ] `@microapps/core`: Lifecycle, boot, providers
-- [ ] `@microapps/common`: Shared types, utilities
-- [ ] `@microapps/cli`: CLI tool for scaffolding
+- [x] `@macroapps/ioc`: IoC container
+- [ ] `@macroapps/core`: Lifecycle, boot, providers
+- [ ] `@macroapps/common`: Shared types, utilities
+- [ ] `@macroapps/cli`: CLI tool for scaffolding
 - [ ] Documentation website
 - [ ] NPM release pipeline
 
